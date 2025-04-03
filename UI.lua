@@ -110,7 +110,7 @@ function Luxt1.CreateWindow(libName, logoId)
     logoId = logoId or ""
     --
 
-    LuxtLib.Name = "LuxtLib"..libName
+    LuxtLib.Name = libName
     LuxtLib.Parent = game.CoreGui
     LuxtLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
